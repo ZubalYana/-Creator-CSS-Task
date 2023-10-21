@@ -1,0 +1,92 @@
+@media print {
+    .container nav{
+        display:  none; 
+    }
+    #about{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+    .blocks{
+        display: none;
+    }
+    .carousel-inner{
+        display: none;
+    }
+    .img-contact-us{
+        display: none;
+    }
+    #contact{
+        display: none;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    img{
+        width: 200px;
+    }
+    .tm-team-description-container{
+        width: 300px;
+        margin-right: 25px;
+    }
+    .tm-content-box{
+        display: flex;
+        align-items: center;
+    }
+    h2{
+        display: none;
+    }
+    .tm-section-title{
+        display: flex;
+        color:  #1E14FF !important;
+    }
+    ol{
+        display: none;
+    }
+    .text-xs-center{
+        margin-top: -350px;
+    }
+    .tm-banner-inner{
+        width: 500px;
+    }
+    .tm-content-box div p:nth-child(2){
+        font-style: italic !important;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+.tm-section-title:hover{
+    background-color: lightskyblue ;
+    color: rgb(255, 255, 255) ;
+}
+p::first-letter{
+    color: #76D6E9;
+    font-size: 30px;
+}
+.tm-sidebar {
+    box-shadow: 0 0 10px #ccc;
+}
+.tm-content-box{
+    box-shadow: 0 0 10px #ccc;
+}
+.tm-banner{
+    padding: 0;
+    border: 30px solid #eee;
+}
+section::before{
+    content: "";
+    border-right: 80px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 80px solid #87CEFA;
+    border-top: 10px solid #87CEFA;
+    position: absolute;
+}
